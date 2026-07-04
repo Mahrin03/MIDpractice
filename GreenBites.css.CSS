@@ -15,12 +15,12 @@ header {
     color: whitesmoke;
     text-align: center;
     padding: 25px 10px;
-      height: 220px;
+    height: 220px;
     background-image: url("cover.jpg"); 
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: whitesmoke;
 }
 
 .brand {
@@ -70,6 +70,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
 .hero-text {
     flex: 1;
 }
@@ -123,7 +124,7 @@ button:hover {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-
+/* Products page grid section */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -158,7 +159,7 @@ button:hover {
     color: #c47f00;
 }
 
-
+/* Contact page */
 .contact-area {
     display: flex;
     gap: 25px;
