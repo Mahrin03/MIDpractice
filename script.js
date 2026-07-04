@@ -1,11 +1,11 @@
 function showOffer() {
     alert("Today only: Get 10% discount on all GreenBite combo packs!");
 }
-
 function changeHeroText() {
     var message = document.getElementById("homeMessage");
     message.innerHTML = "GreenBite is a good choice because our snacks are simple, fresh, affordable and easy to order online.";
 }
+
 
 function addToCart(productName) {
     alert(productName + " has been added to your cart.");
